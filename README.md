@@ -5,7 +5,7 @@ Este es un juego de memoria clásico desarrollado con **HTML, CSS y JavaScript p
 ## 🚀 Tecnologías Utilizadas
 
 - **HTML5**: Estructura del juego.
-- **CSS3**: Estilización y diseño responsivo.
+- **CSS3**: Estilización y diseño.
 - **JavaScript Vanilla**: Lógica del juego sin frameworks ni librerías externas.
 
 ## 🎯 ¿Qué Aprenderás con este Proyecto?
