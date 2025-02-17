@@ -25,10 +25,10 @@ Este es un juego de memoria clásico desarrollado con **HTML, CSS y JavaScript p
 ✅ Crear una cuadrícula de cartas organizadas con **CSS Grid**. <br>
 ✅ Implementar la funcionalidad de **voltear cartas**. <br>
 ✅ Verificar si dos cartas coinciden y **hacerlas inactivas** si forman una pareja. <br>
-✅ Bloquear temporalmente el tablero cuando hay dos cartas volteadas.
-✅ Agregar un **botón de reinicio** para reiniciar el juego.
-✅ Detectar cuándo **todas las cartas han sido emparejadas** y mostrar un mensaje.
-✅ Aplicar una interfaz visual agradable y fácil de usar.
+✅ Bloquear temporalmente el tablero cuando hay dos cartas volteadas. <br>
+✅ Agregar un **botón de reinicio** para reiniciar el juego. <br>
+✅ Detectar cuándo **todas las cartas han sido emparejadas** y mostrar un mensaje. <br>
+✅ Aplicar una interfaz visual agradable y fácil de usar. <br>
 
 ## 🕹️ ¿Cómo Jugar?
 
