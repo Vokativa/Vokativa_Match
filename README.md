@@ -22,9 +22,9 @@ Este es un juego de memoria clásico desarrollado con **HTML, CSS y JavaScript p
 
 ## 🎯 Objetivos del Proyecto
 
-✅ Crear una cuadrícula de cartas organizadas con **CSS Grid**.
-✅ Implementar la funcionalidad de **voltear cartas**.
-✅ Verificar si dos cartas coinciden y **hacerlas inactivas** si forman una pareja.
+✅ Crear una cuadrícula de cartas organizadas con **CSS Grid**. <br>
+✅ Implementar la funcionalidad de **voltear cartas**. <br>
+✅ Verificar si dos cartas coinciden y **hacerlas inactivas** si forman una pareja. <br>
 ✅ Bloquear temporalmente el tablero cuando hay dos cartas volteadas.
 ✅ Agregar un **botón de reinicio** para reiniciar el juego.
 ✅ Detectar cuándo **todas las cartas han sido emparejadas** y mostrar un mensaje.
