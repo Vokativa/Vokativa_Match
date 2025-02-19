@@ -1,51 +1,65 @@
-# VOKATIVA MATCH
+ranc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (main)
+$ git checkout -b "proyect3"
+Switched to a new branch 'proyect3'
 
-Este es un juego de memoria clásico desarrollado con **HTML, CSS y JavaScript puro (Vanilla JS)**. El objetivo del juego es encontrar todas las parejas de cartas en la menor cantidad de movimientos posible.
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git status
+On branch proyect3
+nothing to commit, working tree clean
 
-## 🚀 Tecnologías Utilizadas
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git add .
 
-- **HTML5**: Estructura del juego.
-- **CSS3**: Estilización y diseño.
-- **JavaScript Vanilla**: Lógica del juego sin frameworks ni librerías externas.
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git commit -m"avance1"
+On branch proyect3
+nothing to commit, working tree clean
 
-## 🎯 ¿Qué Aprenderás con este Proyecto?
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git push origin proyect3
+remote: Permission to Vokativa/Vokativa_Match.git denied to Frank-Weye.
+fatal: unable to access 'https://github.com/Vokativa/Vokativa_Match/': The requested URL returned error: 403
 
-1. **Manipulación del DOM** con JavaScript.
-2. **Uso de eventos (event listeners)** para manejar clics en las cartas.
-3. **Uso de `data-attributes`** para almacenar y comparar información de las cartas.
-4. **Manejo del estado del juego** (cartas volteadas, coincidencias, bloqueo de tablero, etc.).
-5. **Aplicación de estilos dinámicos con clases CSS**.
-6. **Uso de `setTimeout()`** para manejar efectos visuales y lógica de espera.
-7. **Condiciones lógicas** para validar coincidencias y ganar el juego.
-8. **Generación aleatoria de contenido** usando `Math.random()`.
-9. **Implementación de un botón de reinicio** para volver a jugar.
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git remote -v
+origin  https://github.com/Vokativa/Vokativa_Match (fetch)
+origin  https://github.com/Vokativa/Vokativa_Match (push)
 
-## 🎯 Objetivos del Proyecto
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git remote remove origin 
 
-✅ Crear una cuadrícula de cartas organizadas con **CSS Grid**. <br>
-✅ Implementar la funcionalidad de **voltear cartas**. <br>
-✅ Verificar si dos cartas coinciden y **hacerlas inactivas** si forman una pareja. <br>
-✅ Bloquear temporalmente el tablero cuando hay dos cartas volteadas. <br>
-✅ Agregar un **botón de reinicio** para reiniciar el juego. <br>
-✅ Detectar cuándo **todas las cartas han sido emparejadas** y mostrar un mensaje. <br>
-✅ Aplicar una interfaz visual agradable y fácil de usar. <br>
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git remote add origin https://github.com/Frank-Weye/Vokativa_Match.git
 
-## 🕹️ ¿Cómo Jugar?
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git remote -v
+origin  https://github.com/Frank-Weye/Vokativa_Match.git (fetch)
+origin  https://github.com/Frank-Weye/Vokativa_Match.git (push)
 
-1. Haz clic en una carta para voltearla.
-2. Voltea otra carta e intenta encontrar la pareja correcta.
-3. Si las cartas coinciden, permanecen visibles; si no, se ocultan nuevamente.
-4. Continúa hasta encontrar todas las parejas.
-5. Al completar el juego, aparecerá un botón para volver a jugar.
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git status
+On branch proyect3
+nothing to commit, working tree clean
 
-## 📌 Mejoras Futuras
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git add .
 
-- Agregar un contador de movimientos y tiempo transcurrido.
-- Incluir niveles de dificultad con diferentes tamaños de tablero.
-- Animaciones más fluidas con CSS y JavaScript.
-- Guardar la mejor puntuación en **localStorage**.
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git commit -m"avance1"
+On branch proyect3
+nothing to commit, working tree clean
 
----
-
-### ¡Diviértete creando y mejorando este VOKATIVA MATCH! 🎴🔥
-
+franc@LAPTOP-OBI8ID1G MINGW64 ~/Desktop/Vokativa/Vokativa_Match (proyect3)
+$ git push origin proyect3
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 806 bytes | 268.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'proyect3' on GitHub by visiting:
+remote:      https://github.com/Frank-Weye/Vokativa_Match/pull/new/proyect3
+remote:
+To https://github.com/Frank-Weye/Vokativa_Match.git
+ * [new branch]      proyect3 -> proyect3
