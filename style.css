@@ -12,9 +12,6 @@
     text-align: center;
 
 }
-
-
-
 #container{
     background: rosybrown;
     display: grid;
@@ -32,12 +29,28 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    background: brown; /* Color inicial */
 
     
+}
+.hidden{
+    background: brown;
 }
 
 .match{
     background: green;
+    color: white;
+}
+.no-match {
+    background: red;
+    color: white;
+}
+#restart-btn{
+    background: rgb(53, 53, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
     
 
