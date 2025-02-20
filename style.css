@@ -1,0 +1,44 @@
+.body{
+    background: rgb(97, 39, 204);
+    height: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    color: pink;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+
+
+#container{
+    background: rosybrown;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.card{
+    /* background: rgb(102, 46, 46); */
+    width: 100%;
+    height: 100px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    
+}
+
+.match{
+    background: green;
+}
+    
+
+
