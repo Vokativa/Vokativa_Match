@@ -2,7 +2,6 @@
 let matchedPairs = 0;
 const emoji=["\u{1F30D}","\u{1F432}","\u{1F47D}","\u{1F47B}","\u{1F480}","\u{1F4A3}"
 ]
-
 let cards=[...emoji,...emoji]
 
 //utili sort y mathrandom en cards
@@ -26,12 +25,8 @@ cards.forEach((symbol, index) => {
     container.appendChild(card);
     card.addEventListener("click", () => flipCard(card));
 });
-  
-
 //cards datasimbol idcon card
 //Agregar evento click a cada carta
-
-
 function flipCard(card) {
     if (flippedCards.length < 2 && card.innerText === '?') {
         card.innerText = card.dataset.symbol;
@@ -59,7 +54,7 @@ function checkMatch() {
         card2.style.backgroundColor = "red";
 
         setTimeout(() => {
-            card1.style.backgroundColor = "brown"; // Regresa al color original (CSS)
+            card1.style.backgroundColor = "brown"; // Regresa al color original 
             card2.style.backgroundColor = "brown";
             card1.innerText = '?';
             card2.innerText = '?';
@@ -70,15 +65,14 @@ function checkMatch() {
 
     if (matchedPairs === emoji.length) {
         setTimeout(() => {
-        document.getElementById("message").innerText = "¡Felicidades! Has ganado.";
+        document.getElementById("message").innerText = "¡Felicidades! Ganaste.";
             document.getElementById("restart-btn").style.display = "block";
         }, 500);
     }
 
 }
 
-
 //  Función para reiniciar el juego
 function restartGame() {
-    location.reload(); // Recarga la página para reiniciar el juego
+    location.reload(); 
 }
